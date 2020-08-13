@@ -6,7 +6,7 @@ import BackButton from "./BackButton";
 function Gif() {
   return (
     <div className="listing-container">
-      <h1 className="listing-header">Pure CSS Animation</h1>
+      <h1 className="listing-header">Gif Animated Image</h1>
       <div className="listing-cards-container">
         <Row>
           <Col xs={24} lg={12}>

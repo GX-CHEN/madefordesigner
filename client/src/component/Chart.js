@@ -8,7 +8,7 @@ import Radar from "./Radar";
 function Chart() {
   return (
     <div className="listing-container">
-      <h1 className="listing-header">Pure CSS Animation</h1>
+      <h1 className="listing-header">Animation with Chart</h1>
       <div className="listing-cards-container">
         <Row>
           <Col xs={24} lg={12}>
@@ -16,15 +16,15 @@ function Chart() {
               className="card-container chart-card-container"
               title="Pie Chart Animation"
             >
-              <Timer />
+              <Timer/>
             </Card>
           </Col>
           <Col xs={24} lg={12}>
             <Card
               className="card-container chart-card-container"
-              title="Twinkle Owl"
+              title="Radar Chart"
             >
-              <Radar />
+              <Radar/>
             </Card>
           </Col>
         </Row>
