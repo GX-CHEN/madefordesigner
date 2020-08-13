@@ -1,5 +1,12 @@
-https://codepen.io/caseycallow/pen/yMNqPY
-https://codepen.io/shshaw/pen/YpERQQ
+# Components for design components
 
-https://masonry.desandro.com/
-https://w3bits.com/css-masonry/
+## Colorful text
+- https://codepen.io/caseycallow/pen/yMNqPY
+- https://codepen.io/shshaw/pen/YpERQQ
+
+## Masonry
+- https://masonry.desandro.com/
+- https://w3bits.com/css-masonry/
+
+## Rotation
+- Create React app default
