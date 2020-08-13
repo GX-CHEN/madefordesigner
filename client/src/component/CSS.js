@@ -23,20 +23,28 @@ function CSS() {
           <Col xs={24} lg={12}>
             <Card
               className="card-container"
+              title="Color Gradient"
+            >
+              <div className="gradient">
+                Colorful
+              </div>
+            </Card>
+          </Col>
+          <Col xs={24} lg={12}>
+            <Card
+              className="card-container"
               title="Linear Move"
             >
               <div className="move-container">
               </div>
             </Card>
           </Col>
-
           <Col xs={24} lg={12}>
             <Card
               className="card-container"
-              title="Color Gradient"
+              title="Ease Move"
             >
-              <div className="gradient">
-                Colorful
+              <div className="ease-move-container">
               </div>
             </Card>
           </Col>

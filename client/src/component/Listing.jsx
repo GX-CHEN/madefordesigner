@@ -64,7 +64,7 @@ class Listing extends React.Component {
             <Col xs={24} lg={12}>
               <Card
                 className="card-container"
-                title="3-party animation libs"
+                title="3rd-party animation libs"
                 extra={
                   <a href="/js-lib-approach">
                     <Button type="primary" shape="circle">
