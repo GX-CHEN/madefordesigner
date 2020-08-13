@@ -1,0 +1,61 @@
+import React from "react";
+import { PieChart, Pie, Cell } from "recharts";
+import "./TimerContainer.css";
+
+const data = [
+  { name: "Group A", value: 200 },
+  { name: "Group B", value: 200 },
+  { name: "Group C", value: 200 },
+  { name: "Group D", value: 200 }
+];
+const COLORS = ["#FF8042", "#FFBB28", "#00C49F", "#0088FE"];
+
+export default class TimerContainer extends React.Component {
+  render() {
+    const { timeRemain, totalTime } = this.props;
+    const endAngle = 180 - timeRemain * (360 / totalTime);
+    const showGif = timeRemain < 1 && timeRemain > -6;
+
+    const fillColor =
+      timeRemain > 0
+        ? COLORS[Math.floor((timeRemain - 1) / (totalTime / 4)) % COLORS.length]
+        : "red";
+    return (
+      <React.Fragment>
+        <div className="number-count-container">
+          <div className="number-count" style={{ color: fillColor }}>
+            {timeRemain}
+          </div>
+        </div>
+
+        {showGif && (
+          <div className="timer-gif-container">
+            <img src={this.props.imgSrc} alt="time is up" className="gif-img" />
+          </div>
+        )}
+
+        {!showGif && (
+          <PieChart width={200} height={200}>
+            <Pie
+              data={data}
+              cx={100}
+              cy={100}
+              startAngle={180}
+              endAngle={endAngle}
+              innerRadius={70}
+              outerRadius={90}
+              fill="#8884d8"
+              paddingAngle={2}
+              dataKey="value"
+              animationDuration={600}
+            >
+              {data.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={fillColor} />
+              ))}
+            </Pie>
+          </PieChart>
+        )}
+      </React.Fragment>
+    );
+  }
+}

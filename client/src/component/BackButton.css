@@ -1,0 +1,6 @@
+.back-button {
+  position: fixed !important;
+  left: 12%;
+  bottom: 6%;
+  z-index: 100;
+}

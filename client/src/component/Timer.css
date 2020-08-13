@@ -1,0 +1,29 @@
+.main-container {
+  width: 100%;
+}
+
+.selector-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.chart-container {
+  width: 200px;
+  height: 200px;
+  padding-left: calc(50% - 100px);
+  margin-top: 26px;
+}
+
+.emo-container {
+  margin: 16px auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.large-font {
+  font-size: 15px;
+}

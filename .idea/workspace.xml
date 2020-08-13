@@ -2,22 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101ec084-b3f6-4aab-a164-840dfe8928cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/image/spakling-owl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/image/twinkle-owl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/image/minion-what.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/image/please-stop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/image/timeup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/image/too-much-info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/BackButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/BackButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/CSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Gif.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Gif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/JsPackage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/JsPackage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Listing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Listing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Timer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/timer/Emoticon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/timer/Selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/timer/TimerContainer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/timer/TimerContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/image/spakling-owl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/image/spakling-owl.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/image/twinkle-owl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/image/twinkle-owl.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g1O0yrLIVHNRzS1lGFZTO1Jzir" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -25,26 +58,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/public/image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cheng\Desktop\repo\madefordesigner\client\public\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/public/image" />
+      <recent name="C:\Users\cheng\Desktop\repo\madefordesigner\client\src\component\timer" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="101ec084-b3f6-4aab-a164-840dfe8928cd" name="Default Changelist" comment="" />
@@ -52,12 +81,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597278413189</updated>
-      <workItem from="1597278414453" duration="2969000" />
-      <workItem from="1597291906225" duration="1487000" />
+      <workItem from="1597278414453" duration="15615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
 </project>
