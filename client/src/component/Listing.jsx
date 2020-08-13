@@ -23,7 +23,7 @@ class Listing extends React.Component {
                 }
               >
                 <p>Use Gif Images for animation</p>
-                <p>Minimal code needed</p>
+                <p>Minimal code is needed</p>
                 <p>Require designer to provide these</p>
               </Card>
             </Col>
@@ -73,9 +73,9 @@ class Listing extends React.Component {
                   </a>
                 }
               >
-                <p>Use dedicated animation library</p>
-                <p>More work than previous approach</p>
-                <p>Heavily on JS coding and CSS</p>
+                <p>Use dedicated animation JS libraries</p>
+                <p>Can achieve best & most customized result</p>
+                <p>Can take more work than other approaches</p>
               </Card>
             </Col>
           </Row>

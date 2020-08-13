@@ -14,9 +14,9 @@ function JsPackages() {
               className="card-container"
               title="Pose/Framer Motion"
             >
-              <p>Support neat non-linear motion</p>
-              <p>Have ready to use design</p>
-              <p>Need designer's input to match theme</p>
+              <p>Support neat motion with plenty options</p>
+              <p>Have ready to use templates with design</p>
+              <p>We'll need designer's input to match theme</p>
               <p><a href="https://popmotion.io/pose/">React Pose</a>, <a href="https://www.framer.com/motion/">Framer
                 Motion</a></p>
             </Card>
