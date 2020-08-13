@@ -3,6 +3,7 @@ import './Chart.css';
 import {Card, Col, Row} from "antd";
 import BackButton from "./BackButton";
 import Timer from "./Timer";
+import Radar from "./Radar";
 
 function Chart() {
   return (
@@ -23,7 +24,7 @@ function Chart() {
               className="card-container chart-card-container"
               title="Twinkle Owl"
             >
-
+              <Radar />
             </Card>
           </Col>
         </Row>
